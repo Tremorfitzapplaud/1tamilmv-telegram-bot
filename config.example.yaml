@@ -1,0 +1,168 @@
+# 1TamilMV Telegram Bot Configuration File
+# Copy this to config.yaml and fill in your values
+
+# ============================================
+# BOT SETTINGS
+# ============================================
+
+bot_token: "YOUR_BOT_TOKEN_HERE"
+# Get token from @BotFather on Telegram
+# Steps:
+# 1. Open Telegram and find @BotFather
+# 2. Type /newbot
+# 3. Follow the instructions
+# 4. Copy your token here
+
+bot_username: "your_bot_username"
+# The username you set for your bot (without @)
+# This should match what you gave to BotFather
+
+admin_ids:
+  - 123456789
+  - 987654321
+# User IDs of bot administrators
+# Find your ID: @userinfobot
+
+# ============================================
+# DATABASE SETTINGS
+# ============================================
+
+database: "sqlite:///database/tamilmv.db"
+# Database connection string
+# Options:
+#   SQLite: sqlite:///database/tamilmv.db
+#   PostgreSQL: postgresql://user:password@localhost:5432/tamilmv
+#   MySQL: mysql+pymysql://user:password@localhost:3306/tamilmv
+
+# ============================================
+# LOGGING SETTINGS
+# ============================================
+
+log_level: "INFO"
+# Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+log_file: "logs/bot.log"
+# Path to log file
+# Logs will be saved here
+
+# ============================================
+# FEATURE SETTINGS
+# ============================================
+
+enable_notifications: true
+# Enable user notifications for new releases
+
+enable_downloads: true
+# Enable download link sharing
+
+enable_reviews: true
+# Enable movie reviews and ratings
+
+max_search_results: 5
+# Maximum search results to show per query
+
+# ============================================
+# API KEYS (Optional)
+# ============================================
+
+tmdb_api_key: ""
+# TMDB (The Movie Database) API key for extended movie data
+# Get one: https://www.themoviedb.org/settings/api
+
+omdb_api_key: ""
+# OMDB API key for additional movie information
+# Get one: http://www.omdbapi.com/apikey.aspx
+
+# ============================================
+# OTT PLATFORM SETTINGS
+# ============================================
+
+ott_platforms:
+  - name: "Netflix"
+    enabled: true
+    check_updates: true
+  - name: "Amazon Prime Video"
+    enabled: true
+    check_updates: true
+  - name: "Disney+ Hotstar"
+    enabled: true
+    check_updates: true
+  - name: "ZEE5"
+    enabled: true
+    check_updates: true
+  - name: "SonyLiv"
+    enabled: true
+    check_updates: true
+
+# ============================================
+# NOTIFICATION SETTINGS
+# ============================================
+
+notification_settings:
+  new_releases: true
+  ott_releases: true
+  favorite_actors: true
+  favorite_directors: true
+  genre_updates: true
+  
+# Notification frequency
+notification_frequency: 24  # hours
+
+# ============================================
+# RATE LIMITING
+# ============================================
+
+rate_limit:
+  enabled: true
+  max_requests: 30  # per user
+  time_window: 3600  # seconds (1 hour)
+
+# ============================================
+# CACHE SETTINGS
+# ============================================
+
+cache:
+  enabled: true
+  type: "redis"  # or "memory"
+  redis_url: "redis://localhost:6379/0"
+  ttl: 3600  # seconds
+
+# ============================================
+# SECURITY SETTINGS
+# ============================================
+
+security:
+  encrypt_user_data: true
+  require_https: false  # for web dashboard
+  allowed_origins:
+    - "http://localhost:5000"
+    - "https://yourdomain.com"
+
+# ============================================
+# DEPLOYMENT SETTINGS
+# ============================================
+
+deployment:
+  environment: "development"  # or "production"
+  debug: false
+  webhook_url: ""  # For webhook-based deployment
+  
+# ============================================
+# BACKUP SETTINGS
+# ============================================
+
+backup:
+  enabled: true
+  frequency: "daily"  # daily, weekly
+  retention_days: 30
+  backup_dir: "backups/"
+
+# ============================================
+# CUSTOM SETTINGS
+# ============================================
+
+custom:
+  # Add any custom settings here
+  welcome_message: "Welcome to 1TamilMV! 🎬\n\nType /help to see available commands."
+  support_email: "support@1tamilmv.dev"
+  support_group: "@1TamilMVSupport"
